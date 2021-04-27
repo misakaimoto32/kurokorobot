@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <button>按钮1</button>
+    <button>按钮2</button>
+    <button>按钮3</button>
+    <script>
+      var btn=$("button");
+		 btn.click(function (){
+			btn.removeAttr("style");
+			$(this).css("background","green"); 
+		 })
+    </script>
+  </body>
+</html>
